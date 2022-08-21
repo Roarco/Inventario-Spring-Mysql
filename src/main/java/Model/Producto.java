@@ -4,8 +4,6 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.relational.core.mapping.Column;
 import org.springframework.data.relational.core.mapping.Table;
 
-import java.util.List;
-
 @Table("Productos")
 public class Producto {
     @Id
@@ -32,13 +30,6 @@ public class Producto {
         return new Producto(null,nombre, precio, inventario);
     }
 
-    public Long getCodigo() {
-        return codigo;
-    }
-
-    public void setCodigo(Long codigo) {
-        this.codigo = codigo;
-    }
 
     public String getNombre() {
         return nombre;
@@ -64,8 +55,4 @@ public class Producto {
         this.inventario = inventario;
     }
 
-    @Override
-    public String toString() {
-        return "Producto{" + "codigo=" + codigo + ", nombre=" + nombre + ", precio=" + precio + ", inventario=" + inventario + '}';
-    }
 }

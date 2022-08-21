@@ -18,7 +18,6 @@ public class SiMvJdbcApplication {
 	RepositorioProducto repositorio;
 
 	public static void main(String[] args) {
-		//SpringApplication.run(SiMvJdbcApplication.class, args);
 		SpringApplicationBuilder builder = new SpringApplicationBuilder(SiMvJdbcApplication.class);
 		builder.headless(false);
 		ConfigurableApplicationContext context = builder.run(args);

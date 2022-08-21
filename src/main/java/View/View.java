@@ -5,8 +5,6 @@
 package View;
 
 import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 /**
  *
@@ -337,64 +335,32 @@ public class View extends javax.swing.JFrame {
         return add;
     }
 
-    public void setAdd(JButton add) {
-        this.add = add;
-    }
-
     public JButton getUpdate() {
         return update;
-    }
-
-    public void setUpdate(JButton update) {
-        this.update = update;
     }
 
     public JButton getDelete() {
         return delete;
     }
 
-    public void setDelete(JButton delete) {
-        this.delete = delete;
-    }
-
     public JButton getReports() {
         return reports;
-    }
-
-    public void setReports(JButton reports) {
-        this.reports = reports;
     }
 
     public JTable getTableProduct() {
         return tableProduct;
     }
 
-    public void setTableProduct(JTable tableProduct) {
-        this.tableProduct = tableProduct;
-    }
-
     public JTextField getIntputName() {
         return intputName;
-    }
-
-    public void setIntputName(JTextField intputName) {
-        this.intputName = intputName;
     }
 
     public JTextField getInputPrice() {
         return inputPrice;
     }
 
-    public void setInputPrice(JTextField inputPrice) {
-        this.inputPrice = inputPrice;
-    }
-
     public JTextField getInputInventory() {
         return inputInventory;
-    }
-
-    public void setInputInventory(JTextField inputInventory) {
-        this.inputInventory = inputInventory;
     }
 
 }
